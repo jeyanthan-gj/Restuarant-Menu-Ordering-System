@@ -71,7 +71,7 @@ The transmitter (customer table device) uses Arduino code to:
 - Validate and process orders.
 - Send orders wirelessly to the receiver using Zigbee.
 
-> See `Transmitter.ino` for complete code.
+> See arduino code for complete code.
 
 ---
 
