@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 { color: #af4261; }
+button {
+    background-color: #af4261;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+button:hover { background-color: #f3ec78; color: #af4261; }
+.connect-btn { background-color: #007bff; margin-top: 20px; }
+.connect-btn:hover { background-color: #0056b3; }
+.update-quantity, #billContainer { display: none; }
+#comStatus, #status { margin-top: 10px; color: green; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #f3ec78; color: #333; }
+.notification { color: green; margin: 10px 0; cursor: pointer; }
